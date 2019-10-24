@@ -1,0 +1,24 @@
+﻿  main.c
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(7): warning C4005: 'min': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1283): note: see previous definition of 'min'
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(39): warning C4101: 'time_init': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(28): warning C4101: 'result': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(48): warning C4101: 'k': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(39): warning C4101: 'elapsed_time': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(48): warning C4101: 'l': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(36): warning C4101: 'step': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(39): warning C4101: 'time_final': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(29): warning C4101: 'localDiff': unreferenced local variable
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(35): warning C4101: 't': unreferenced local variable
+main.obj : error LNK2019: unresolved external symbol _MPI_Type_vector referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Type_commit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Type_free referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Comm_size referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Comm_rank referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Cart_create referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Cart_shift referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Init referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Finalize referenced in function _main
+UtilFun.obj : error LNK2019: unresolved external symbol _MPI_Sendrecv referenced in function _updateBound
+C:\Program Files\MPICH2\lib\mpi.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Nina\Documents\Visual Studio 2015\Projects\MPILab\Debug\MPILab.exe : fatal error LNK1120: 10 unresolved externals

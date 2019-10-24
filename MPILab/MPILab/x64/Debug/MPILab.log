@@ -1,0 +1,6 @@
+﻿  main.c
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(6): warning C4005: 'min': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1283): note: see previous definition of 'min'
+c:\users\nina\documents\visual studio 2015\projects\mpilab\mpilab\main.c(198): warning C4101: 'l': unreferenced local variable
+  MPILab.vcxproj -> C:\Users\Nina\Documents\Visual Studio 2015\Projects\MPILab\x64\Debug\MPILab.exe
+  MPILab.vcxproj -> C:\Users\Nina\Documents\Visual Studio 2015\Projects\MPILab\x64\Debug\MPILab.pdb (Full PDB)
